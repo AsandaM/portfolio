@@ -1,0 +1,123 @@
+img{
+    width: 50%;
+    height: 80%;
+}
+
+#link{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+#link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid black; 
+}
+
+#navbar{
+    justify-content: flex-end;
+    margin-top: 2%;
+    margin-right: 5%;
+    
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, #F5F5F5 0%, #F5F5F5 50%, #C9CC3F 50%, #C9CC3F 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container{
+    /* text-align: left; */
+    font-family:Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #C9CC3F;
+    
+}
+
+#span{
+    width: 40%;
+    height: 20%;
+    padding: 5%;
+    background-color: #C9CC3F;
+    
+}
+#hire{
+    width: 40%;
+    height: 20%;
+    padding: 5%;
+    padding-left: 0%;
+    background-color:#F5F5F5;
+    
+}
+
+#me{
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border-right: none;
+}
+
+#hireMe{
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border-left: none;
+}
+
+#asa{
+    font-family:Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 68px;
+}
+
+.footer{
+    /* padding: 10px 0; */
+    margin-top: auto;
+    width: 95%;
+    position: fixed;
+    bottom: 0;
+}
+
+#line{
+    
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+#lineM{
+    
+    border-bottom: 1px solid black;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#lineMe{
+    border-bottom: 1px solid black;
+    width: 150%;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(360deg);
+    white-space: nowrap;
+    font-size: 16px;
+    color:#C9CC3F;
+    position: absolute;
+    right: 52%;
+    top: 80%;
+    transform-origin: bottom right;
+    transform: translate(20%, -50%) rotate(360deg);
+    padding: auto;
+}
