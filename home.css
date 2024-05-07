@@ -86,7 +86,7 @@ body{
     /* padding: 10px 0; */
     margin-top: auto;
     width: 95%;
-    position: fixed;
+    position: static;
     bottom: 0;
 }
 
@@ -120,4 +120,109 @@ body{
     transform-origin: bottom right;
     transform: translate(20%, -50%) rotate(360deg);
     padding: auto;
+}
+
+#lineEmail{
+    border-left: 1px solid black;
+} 
+
+/* #lineE{
+    border-bottom: 1px solid black;
+    width: 47%;  
+    
+} */
+
+#icons{
+
+    margin-right: 15%;
+   
+    justify-content: space-between;
+    img{
+        width: 10%;
+        height: 10%;
+        bottom: 0%;
+    }
+}
+
+#lineS{
+    margin-top: 14%;
+    border-top: 1px solid black;
+}
+
+/* About styling */
+#about{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, #c9cc3f 0%, #c9cc3f 50%, #f5f5f5 50%, #f5f5f5 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#footerAbout{
+    /* padding: 10px 0; */
+    margin-top: auto;
+    width: 95%;
+    position: static;
+    bottom: 0;
+}
+
+#aboutM{
+    /* font-weight: bold; */
+    font-size: 48px;
+    margin-left: 10%;
+    font-family:Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#moreMe{
+    margin-top: 5%;
+    font-family:Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+}
+
+#cont{
+    background-color: #F2FCE2;
+    width: 100%;
+
+}
+
+#lineA{
+    
+    border-bottom: 1px solid black;
+    width: 40%;
+    margin-bottom: 1%;
+}
+
+#tech{
+    color:#C9CC3F;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+
+#myUl {
+    text-align: center;
+    /* margin-left: 20%; */
+    margin-top: 2%;
+    font-size: small;
+  }
+  
+#li{
+  display: inline-block;
+  text-align: left;
+  margin-right: 60%;
+  
+  
+}
+
+#lineT{
+    
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+#p{
+    font-size: 24px;
+    text-decoration: underline;
 }
