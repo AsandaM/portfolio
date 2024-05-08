@@ -349,11 +349,20 @@ body{
 #test .card .btn{
     background-color: #F2FCE2;
     color: #C9CC3F;
+    font-size: 18px;
+    border: #C9CC3F solid 1px;
+    transition: background-color 0.3s ease;
+    transition: opacity 0.3s ease;
+
 }
 
 #test .card .btn:hover{
-    background-color: black;
+    background-color:#C9CC3F;
+    color: #F2FCE2;
+    animation: flicker 0.5s ease infinite;
 }
+
+
 
 .popover{
     border: #C9CC3F 2px dotted;
@@ -381,6 +390,137 @@ body{
     margin-bottom: 2%;
 }
 
-myUl img:hover{
+.custom-popover-content {
+    color: green;
+    font-weight: bold;
+}
+
+/* resume styling */
+#orange{
+    background-color: #C9CC3F;
+}
+
+#a{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, #f5f5f5 0%, #F5F5F5 50%, #f5f5f5 50%, #f5f5f5 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#work{
+    text-decoration: underline;
+}
+
+#work + p{
+    font-weight: bold;
+}
+
+#w{
+    border-style: none;
+    border-left: #F2FCE2 solid 1px;
+
+}
+
+#edu{
+    border-style: none;
+    border-left: #F2FCE2 solid 1px;
+
+}
+
+#edu ul{
+    font-size: 12px;
+}
+
+#edu ul:hover{
+    font-size: 14px;
+}
+
+#w ul:hover{
+    font-size: 18px;
+
+}
+
+#cert img{
+    width: 20%;
     
 }
+
+#cert img:hover{
+    /* width: 25%; */
+    animation: echo 2s linear infinite;
+    
+}
+
+@keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    14% {
+      transform: scale(0.9);
+    }
+    21% {
+      transform: scale(1.1) skew(0.004turn)
+    }
+    28% {
+      transform: scale(1) skew(0.008turn);
+    }
+    35% {
+      transform: scale(1) skew(0)
+    }
+  }
+  
+  @keyframes echo {
+    0% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    14% {
+      opacity: 0.4;
+      transform: scale(0.8);
+    }
+    21% {
+      opacity: 0.4;
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+  }
+
+
+/* Animation for flickering effect */
+@keyframes flicker {
+    0% { opacity: 1; text-decoration: underline;}
+    50% { opacity: 0; text-decoration: underline;}
+    100% { opacity: 1; text-decoration: underline;}
+}
+
+/* Apply flicker animation on hover */
+#test .btn:hover {
+    animation: flicker 4s ease infinite;
+}
+#test .card:hover .btn{
+    animation: flicker 1.5s ease infinite;
+}
+
+/* Show overlay on hover */
+#test .card:hover .card-body {
+    opacity: 1;
+}
+
+#test img:hover .card .btn{
+    opacity: 1;
+}
+
+#prof{
+    text-decoration: underline;
+    border-top: #F2FCE2 1px solid;
+}
+
+
+
+
+
+ 
