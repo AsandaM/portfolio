@@ -132,18 +132,22 @@ body{
     
 } */
 
-#icons{
+#icons a{
 
-    margin-right: 15%;
+    width: 10%;
+    /* margin-right: 15%; */
    
-    justify-content: space-between;
+    /* justify-content: space-around; */
     img{
-        width: 10%;
-        height: 10%;
+        width: 60%;
+        height: 100%;
         bottom: 0%;
-    }
+   }
 }
 
+#icon{
+    padding-right: 10%;
+}
 #lineS{
     margin-top: 14%;
     border-top: 1px solid black;
@@ -498,9 +502,9 @@ body{
 }
 
 /* Apply flicker animation on hover */
-#test .btn:hover {
+/* #test .btn:hover {
     animation: flicker 4s ease infinite;
-}
+} */
 #test .card:hover .btn{
     animation: flicker 1.5s ease infinite;
 }
@@ -519,8 +523,70 @@ body{
     border-top: #F2FCE2 1px solid;
 }
 
+#lineR{
+    
+    border-bottom: 1px solid black;
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+#download .btn{
+    background-color: #F2FCE2;
+    font-size: 12px;
+    font-weight: bold;
+    color: #C9CC3F;
+    border-color: #C9CC3F;
+}
+
+#test .card{
+    font-size: 12px;
+}
+
+#test .collapse > *{
+    background-color: #C9CC3F;
+}
+
+#project img{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#project .btn:hover{
+    color: #C9CC3F;
+    background-color: #F2FCE2;
+}
+
+#project .btn{
+    background-color: #C9CC3F;
+}
+
+.mt-5 img{
+    width: 50%;
+    height: 50%;
+    border: #F2FCE2 1px solid;
+    margin-left: 30%;
+    /* border-radius: 20%; */
+    margin-top: 20%;
+}
+.pt-5 img{
+    width: 50%;
+    height: 50%;
+    border: #F2FCE2 1px solid;
+    margin-left: 30%;
+    /* border-radius: 20%; */
+    margin-top: 20%;
+}
 
 
+#test .mt-5 .card {
+    background-color: color-mix(in hsl shorter hue, #496D1D 50%, #F2FCE2 10%);
+    margin-top: 5%;
+    
+}
 
+#test .card {
+    background-color: color-mix(in hsl shorter hue, #496D1D 50%, #F2FCE2 10%);
+    margin-top: 5%;
+    
+}
 
- 
