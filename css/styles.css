@@ -653,6 +653,14 @@ body:hover svg {
     animation: flicker-svg 3s infinite; /* Adjust duration for slower flicker */
 }
  
+:hover #me{
+    animation: flicker-svg 3s infinite;
+}
+
+:hover #hireMe{
+    animation: flicker-svg 3s infinite;
+}
+
 #me:hover,
 #hireMe:hover {
   font-size: larger;
