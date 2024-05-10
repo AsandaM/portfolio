@@ -756,10 +756,14 @@ body:hover svg {
 }
 
 .mt-5, /* Remove transitions and animations on hover and click for buttons */
-.btn:hover,
-.btn:focus,
 .btn:active {
   transition: none !important; /* Remove transitions on hover */
   animation: none !important; /* Remove animations on hover */
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 
