@@ -756,10 +756,32 @@ body:hover svg {
 }
 
 .mt-5, /* Remove transitions and animations on hover and click for buttons */
-.btn:hover,
-.btn:focus,
 .btn:active {
   transition: none !important; /* Remove transitions on hover */
   animation: none !important; /* Remove animations on hover */
 }
 
+@media (max-width: 993px) {
+    #col .typing-text {
+      font-size: 48px;
+    }
+  }
+
+@media (max-width: 993px) {
+    #fix img{
+        width: 10%0;
+        height: 80% ;
+    }
+  }
+
+@media (max-width: 769px) {
+    #email {
+        display: none;
+    }
+  }
+
+@media (max-width: 768px) {
+   #container{
+        color: #19770f;
+    }
+  }
