@@ -761,9 +761,27 @@ body:hover svg {
   animation: none !important; /* Remove animations on hover */
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media (max-width: 993px) {
+    #col .typing-text {
+      font-size: 48px;
     }
   }
 
+@media (max-width: 993px) {
+    #fix img{
+        width: 10%0;
+        height: 80% ;
+    }
+  }
+
+@media (max-width: 769px) {
+    #email {
+        display: none;
+    }
+  }
+
+@media (max-width: 768px) {
+   #container{
+        color: #19770f;
+    }
+  }
