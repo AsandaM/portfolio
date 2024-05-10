@@ -778,6 +778,9 @@ body:hover svg {
     #email {
         display: none;
     }
+    #icons{
+        background-color: #F2FCE2
+    }
   }
 
 @media (max-width: 768px) {
@@ -785,3 +788,5 @@ body:hover svg {
         color: #19770f;
     }
   }
+
+
